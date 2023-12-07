@@ -36,7 +36,7 @@ namespace Project
         private void button3_Click(object sender, EventArgs e)
         {
             Cart cart = new Cart();
-            cart.Hide();
+            cart.Show();
             this.Hide();
         }
 
